@@ -5,3 +5,8 @@ lib
 .flaskenv
 pyvenv.cfg
 __pycache__
+package
+infra/.terraform.lock.hcl
+infra/.terraform
+terraform.*
+*.zip

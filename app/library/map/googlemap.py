@@ -48,5 +48,5 @@ class FoodMapApi:
         if len(urls) < 1:
             resp = "I can't find any restaurant nearby now"
         else:
-            resp = "I recommend the below restaurant for you\n {}".format("\n".join(urls))
+            resp = "I recommend the below restaurant for you\n{}".format("\n".join(urls))
         return resp
